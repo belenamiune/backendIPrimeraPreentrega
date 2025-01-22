@@ -1,22 +1,18 @@
 const { getProductsData, saveProductsData } = require('../utils/fileHelper');
 const PRODUCTS_FILE = './data/products.json';
 
-// Cargar los productos desde el archivo
 let products = getProductsData(PRODUCTS_FILE);
 
 const ProductModel = {
-    // Obtener todos los productos
     getAll: () => products,
 
-    // Obtener un producto por ID
     getById: (id) => products.find(product => product.id === id),
 
-    // Crear un nuevo producto
     create: (data) => {
         const newProduct = {
-            id: Date.now().toString(), // Generar un ID único
+            id: Date.now().toString(),
             ...data,
-            status: data.status !== undefined ? data.status : true, // Status por defecto true
+            status: data.status !== undefined ? data.status : true,
         };
 
         products.push(newProduct);
@@ -24,7 +20,6 @@ const ProductModel = {
         return newProduct;
     },
 
-    // Actualizar un producto existente
     update: (id, data) => {
         const product = products.find(product => product.id === id);
         if (!product) return null;
@@ -34,7 +29,6 @@ const ProductModel = {
         return product;
     },
 
-    // Eliminar un producto por ID
     delete: (id) => {
         const index = products.findIndex(product => product.id === id);
         if (index === -1) return false;

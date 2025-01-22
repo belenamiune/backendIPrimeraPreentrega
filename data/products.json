@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "title": "Producto 1",
+    "description": "Descripción del producto 1",
+    "code": "CODE1",
+    "price": 60,
+    "status": true,
+    "stock": 8,
+    "category": "Categoría 2",
+    "thumbnails": [
+      "imagen1_1.jpg",
+      "imagen1_2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Producto 2",
+    "description": "Descripción del producto 2",
+    "code": "CODE2",
+    "price": 70,
+    "status": true,
+    "stock": 11,
+    "category": "Categoría 3",
+    "thumbnails": [
+      "imagen2_1.jpg",
+      "imagen2_2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Producto 3",
+    "description": "Descripción del producto 3",
+    "code": "CODE3",
+    "price": 80,
+    "status": true,
+    "stock": 14,
+    "category": "Categoría 1",
+    "thumbnails": [
+      "imagen3_1.jpg",
+      "imagen3_2.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Producto 4",
+    "description": "Descripción del producto 4",
+    "code": "CODE4",
+    "price": 90,
+    "status": true,
+    "stock": 17,
+    "category": "Categoría 2",
+    "thumbnails": [
+      "imagen4_1.jpg",
+      "imagen4_2.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Producto 5",
+    "description": "Descripción del producto 5",
+    "code": "CODE5",
+    "price": 100,
+    "status": true,
+    "stock": 20,
+    "category": "Categoría 3",
+    "thumbnails": [
+      "imagen5_1.jpg",
+      "imagen5_2.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Producto 6",
+    "description": "Descripción del producto 6",
+    "code": "CODE6",
+    "price": 110,
+    "status": true,
+    "stock": 23,
+    "category": "Categoría 1",
+    "thumbnails": [
+      "imagen6_1.jpg",
+      "imagen6_2.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Producto 7",
+    "description": "Descripción del producto 7",
+    "code": "CODE7",
+    "price": 120,
+    "status": true,
+    "stock": 26,
+    "category": "Categoría 2",
+    "thumbnails": [
+      "imagen7_1.jpg",
+      "imagen7_2.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Producto 8",
+    "description": "Descripción del producto 8",
+    "code": "CODE8",
+    "price": 130,
+    "status": true,
+    "stock": 29,
+    "category": "Categoría 3",
+    "thumbnails": [
+      "imagen8_1.jpg",
+      "imagen8_2.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Producto 9",
+    "description": "Descripción del producto 9",
+    "code": "CODE9",
+    "price": 140,
+    "status": true,
+    "stock": 32,
+    "category": "Categoría 1",
+    "thumbnails": [
+      "imagen9_1.jpg",
+      "imagen9_2.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Producto 10",
+    "description": "Descripción del producto 10",
+    "code": "CODE10",
+    "price": 150,
+    "status": true,
+    "stock": 35,
+    "category": "Categoría 2",
+    "thumbnails": [
+      "imagen10_1.jpg",
+      "imagen10_2.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Producto 11",
+    "description": "Descripción del producto 11",
+    "code": "CODE11",
+    "price": 160,
+    "status": true,
+    "stock": 38,
+    "category": "Categoría 3",
+    "thumbnails": [
+      "imagen11_1.jpg",
+      "imagen11_2.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Producto 12",
+    "description": "Descripción del producto 12",
+    "code": "CODE12",
+    "price": 170,
+    "status": true,
+    "stock": 41,
+    "category": "Categoría 1",
+    "thumbnails": [
+      "imagen12_1.jpg",
+      "imagen12_2.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Producto 13",
+    "description": "Descripción del producto 13",
+    "code": "CODE13",
+    "price": 180,
+    "status": true,
+    "stock": 44,
+    "category": "Categoría 2",
+    "thumbnails": [
+      "imagen13_1.jpg",
+      "imagen13_2.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Producto 14",
+    "description": "Descripción del producto 14",
+    "code": "CODE14",
+    "price": 190,
+    "status": true,
+    "stock": 47,
+    "category": "Categoría 3",
+    "thumbnails": [
+      "imagen14_1.jpg",
+      "imagen14_2.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Producto 15",
+    "description": "Descripción del producto 15",
+    "code": "CODE15",
+    "price": 200,
+    "status": true,
+    "stock": 50,
+    "category": "Categoría 1",
+    "thumbnails": [
+      "imagen15_1.jpg",
+      "imagen15_2.jpg"
+    ]
+  },
+  {
+    "id": "1737544180065",
+    "title": "Producto 16",
+    "description": "Descripción del producto 16",
+    "code": "CODE16",
+    "price": 200,
+    "stock": 50,
+    "category": "Categoría 4",
+    "thumbnails": [
+      "imagen16_1.jpg",
+      "imagen16_2.jpg"
+    ],
+    "status": true
+  }
+]
