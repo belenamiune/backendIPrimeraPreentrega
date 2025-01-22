@@ -1,5 +1,5 @@
 const { getProductsData, saveProductsData } = require('../utils/fileHelper');
-const PRODUCTS_FILE = './data/products.json';
+const PRODUCTS_FILE = '../data/products.json';
 
 let products = getProductsData(PRODUCTS_FILE);
 

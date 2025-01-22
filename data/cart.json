@@ -16,7 +16,7 @@
       },
       {
         "product": 101,
-        "quantity": 1
+        "quantity": 2
       }
     ]
   },
@@ -95,9 +95,5 @@
         "quantity": 5
       }
     ]
-  },
-  {
-    "id": 6,
-    "products": []
   }
 ]

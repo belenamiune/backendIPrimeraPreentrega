@@ -10,7 +10,7 @@ const getProducts = (req, res) => {
 };
 
 const getProductById = (req, res) => {
-    const product = products.find(p => p.id === req.params.pid);
+    const product = products.find(p => p.id === parseInt(req.params.pid));
     if (!product) return res.status(404).json({ error: 'Producto no encontrado' });
     res.json(product);
 };
@@ -29,7 +29,7 @@ const createProduct = (req, res) => {
 };
 
 const updateProduct = (req, res) => {
-    const product = products.find(p => p.id === req.params.pid);
+    const product = products.find(p => p.id === parseInt(req.params.pid));
     if (!product) return res.status(404).json({ error: 'Producto no encontrado' });
 
     Object.assign(product, req.body);
@@ -38,7 +38,7 @@ const updateProduct = (req, res) => {
 };
 
 const deleteProduct = (req, res) => {
-    products = products.filter(p => p.id !== req.params.pid);
+    products = products.filter(p => p.id !== parseInt(req.params.pid));
     saveProductsData(PRODUCTS_FILE, products);
     res.status(204).send();
 };

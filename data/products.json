@@ -60,13 +60,13 @@
     "title": "Producto 5",
     "description": "Descripción del producto 5",
     "code": "CODE5",
-    "price": 100,
+    "price": 90,
     "status": true,
-    "stock": 20,
-    "category": "Categoría 3",
+    "stock": 17,
+    "category": "Categoría 4",
     "thumbnails": [
-      "imagen5_1.jpg",
-      "imagen5_2.jpg"
+      "imagen4_5.jpg",
+      "imagen4_5.jpg"
     ]
   },
   {
@@ -99,12 +99,12 @@
   },
   {
     "id": 8,
-    "title": "Producto 8",
+    "title": "Producto actualizado",
     "description": "Descripción del producto 8",
     "code": "CODE8",
-    "price": 130,
+    "price": 120,
     "status": true,
-    "stock": 29,
+    "stock": 5,
     "category": "Categoría 3",
     "thumbnails": [
       "imagen8_1.jpg",
@@ -210,7 +210,7 @@
     ]
   },
   {
-    "id": "1737544180065",
+    "id": 16,
     "title": "Producto 16",
     "description": "Descripción del producto 16",
     "code": "CODE16",
@@ -220,6 +220,20 @@
     "thumbnails": [
       "imagen16_1.jpg",
       "imagen16_2.jpg"
+    ],
+    "status": true
+  },
+  {
+    "id": 17,
+    "title": "Producto 17",
+    "description": "Descripción del producto 17",
+    "code": "CODE17",
+    "price": 200,
+    "stock": 50,
+    "category": "Categoría 4",
+    "thumbnails": [
+      "imagen17_1.jpg",
+      "imagen17_2.jpg"
     ],
     "status": true
   }
